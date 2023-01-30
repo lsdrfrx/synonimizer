@@ -1,3 +1,3 @@
 export default function Navigation() {
-  return <div>navigation</div>;
+  return <div className="fixed">navigation</div>;
 }
