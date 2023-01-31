@@ -1,1 +1,0 @@
-CREATE TABLE urls (short_url TEXT, source_url TEXT);

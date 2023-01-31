@@ -33,7 +33,14 @@ class Word(models.Model):
 
 
 class DocumentManager(models.Manager):
-    pass
+    def get_file_text(self, file_id: int):
+        return "Хуй"
+
+    def get_synonyms(self, word: str):
+        return "Хуй"
+
+    def edit_word(self, file_id: int, replaced_word: str, new_word: str):
+        return "Хуй"
 
 
 class Document(models.Model):
