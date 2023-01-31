@@ -21,7 +21,7 @@ from rest_framework.authtoken.views import obtain_auth_token
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("auth/signin", obtain_auth_token, name="login"),
+    path("auth/signin", views.sign_in, name="login"),
     path("auth/signup", views.sign_up, name="singup"),
     path("workspace", views.workspace, name="workspace"),
     path("upload", views.upload_file, name="upload_file"),
